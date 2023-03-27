@@ -9,5 +9,5 @@ make -j4
 cd ../python-package
 pipenv run python setup.py install --precompile
 
-pipenv install numpy scipy
+pipenv install numpy scipy --skip-lock
 
